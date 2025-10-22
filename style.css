@@ -79,6 +79,7 @@ button:active{
         background: linear-gradient(45deg, #eea4f9, rgb(255, 233, 254));
     }
     50%{
-        background: linear-gradient(45deg, #f9d4ff, #ffb3ff);
+        background: linear-gradient(45deg, #f9d4ff, #ffb3ff, #f9d4ff);
     }
+
 }
