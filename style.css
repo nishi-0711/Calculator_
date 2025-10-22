@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #eea4f9, rgb(255, 233, 254));
+    background-size: 400% 400%;
+    animation: bgchange 40s linear infinite;
+}
+
+.calculator{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-color: #c981ce;
+    border: 1px solid #c278c7;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #962f9d;
+}
+
+input{
+    width: 300px;
+    padding: 24px;
+    margin: 10px ;
+    background-color:#f5b1ff;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 30px;
+    color: #fff;
+    text-align: right;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(84, 84, 84, 0.1);
+}
+
+input::placeholder{
+    color: #5b5757;
+    opacity: 0.7;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(222, 144, 232);
+    background-color: #f9d4ff;
+}
+
+.equalbtn{
+    background-color: rgb(232, 169, 223);
+}
+
+button:hover{
+    background-color: #ffb3ff;
+}
+
+button:active{
+    box-shadow: 0 0 5px rgb(184, 99, 184);
+}
+
+.operator{
+    color:blueviolet;
+}
+
+@keyframes bgchange{
+    0%,100%{
+        background: linear-gradient(45deg, #eea4f9, rgb(255, 233, 254));
+    }
+    50%{
+        background: linear-gradient(45deg, #f9d4ff, #ffb3ff);
+    }
+}
