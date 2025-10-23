@@ -21,24 +21,25 @@ body{
     padding: 20px;
     background-color: #c981ce;
     border: 1px solid #c278c7;
-    border-radius: 10px;
+    border-radius: 20px;
     box-sizing: border-box;
     box-shadow: 0 0 10px #962f9d;
 }
 
 input{
     width: 300px;
+    height: 120px;
     padding: 24px;
     margin: 10px ;
     background-color:#f5b1ff;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     outline: none;
     font-size: 30px;
     color: #fff;
     text-align: right;
     cursor: pointer;
-    box-shadow: 0 0 10px rgba(84, 84, 84, 0.1);
+    box-shadow: 0 0 10px rgb(250, 174, 254);
 }
 
 input::placeholder{
@@ -47,14 +48,14 @@ input::placeholder{
 }
 
 button{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
     font-size: 22px;
     border: none;
-    border-radius: 5px;
+    border-radius: 50%;
     cursor: pointer;
-    box-shadow: 0 0 10px rgb(222, 144, 232);
+    box-shadow: 0 0 10px rgb(237, 183, 244);
     background-color: #f9d4ff;
 }
 
@@ -83,3 +84,4 @@ button:active{
     }
 
 }
+
